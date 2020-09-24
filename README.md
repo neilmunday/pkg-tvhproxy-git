@@ -11,3 +11,9 @@ makepkg -si
 ```
 
 Once installed, edit `/etc/conf.d/tvhproxy` to match your configuration.
+
+You can then start the service like so:
+
+```
+systemctl start tvhproxy
+```
